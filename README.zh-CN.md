@@ -10,8 +10,11 @@ SuperSeedance 是一个独立 AI 视频工作台，支持用 Seedance 2.5 从文
 
 - [入门教程](https://superseedance.si/zh/blog/how-to-use-seedance)：文字生成、首帧图片、参数、提交与下载。
 - [提示词与八条原创样片](https://superseedance.si/zh/blog/seedance-prompt-guide#motion-examples)：运镜、动作、动漫、三维、水墨与黏土风格。
+- [角色一致性](https://superseedance.si/zh/blog/seedance-consistent-character)：每个镜头复用同一张参考图，检查外观与画风；参考不保证完全一致。
+- [视频问题排查](https://superseedance.si/zh/blog/seedance-video-troubleshooting)：处理运动不足、变形、画幅、排队与失败，理解积分返还。
 - [费用与预算](https://superseedance.si/zh/blog/seedance-cost-guide)：区分供应商成本、本站积分与成片预算。
 - [API 文档](https://superseedance.si/zh/docs)：后端认证、报价、生成与任务查询。
+- [MCP 接入说明](mcp.md)：用账户 API Key 连接兼容的服务端客户端，查询、报价和管理任务；创建视频前需确认积分。
 
 八条动态样片的提交参数为 Seedance 2.5、文生、6 秒、720p、16:9、无音频、非草稿。页面将完整提示词与样片配对，方便比较动作和镜头表达。提示词提供创作起点，不保证每次得到相同成片。
 

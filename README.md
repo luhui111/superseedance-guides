@@ -12,8 +12,11 @@ SuperSeedance is an independent AI video workspace for creating from text or ima
 |---|---|
 | Make your first video | [Getting started](getting-started.md) · [Full website guide](https://superseedance.si/en/blog/how-to-use-seedance) |
 | Write camera, action or animation prompts | [Eight prompts and example videos](prompts.md) |
+| Reuse a character across shots | [Character reference workflow](https://superseedance.si/en/blog/seedance-consistent-character) |
+| Fix weak motion, distortion or task errors | [Video troubleshooting](https://superseedance.si/en/blog/seedance-video-troubleshooting) |
 | Plan duration, resolution and budget | [Video cost guide](https://superseedance.si/en/blog/seedance-cost-guide) |
 | Integrate from your backend | [API notes](api.md) · [API reference](https://superseedance.si/api-reference.md) |
+| Connect a compatible server-side MCP client | [MCP connection and tools](mcp.md) |
 
 ## Watch the original examples
 
