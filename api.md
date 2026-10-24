@@ -6,7 +6,7 @@ The hosted application's [API reference](https://superseedance.si/api-reference.
 
 The [MCP guide](mcp.md) covers `https://superseedance.si/api/mcp`, account API-key authentication, read-only tools and paid video creation. Use a compatible server-side client; this endpoint does not provide OAuth. Quote the selected settings and obtain explicit approval before creating a paid task.
 
-MCP protocol and tool behavior have been tested locally. This does not establish compatibility with every client; verify a connection with read-only tools before enabling paid creation.
+MCP protocol and tool behavior have been tested locally, and production read-only checks passed on October 24, 2026. This does not establish compatibility with every client; verify a connection with read-only tools before enabling paid creation.
 
 ## Authentication
 

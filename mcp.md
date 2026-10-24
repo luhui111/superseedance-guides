@@ -35,3 +35,9 @@ The server supports modern 2026-07-28 requests and legacy stateless initializati
 [Complete API and MCP reference](https://superseedance.si/api-reference.md) · [Generation availability](https://superseedance.si/api/studio/config)
 
 This guide is maintained by SuperSeedance. A working connection or directory entry does not imply endorsement by an AI platform. Production client compatibility should be checked with read-only tools before enabling paid creation.
+
+## Registry and verification
+
+The server is listed as `si.superseedance/superseedance`, version `1.0.0`, in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=si.superseedance). The reviewed [server manifest](server.json) describes its remote endpoint and required secret header.
+
+On October 24, 2026, a production read-only check passed initialization, tool discovery, model lookup, a credit quote and authenticated balance lookup. No video was created and no credits were spent. Paid creation and broader client compatibility were not part of this production check.
