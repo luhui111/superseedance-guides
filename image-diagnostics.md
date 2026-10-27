@@ -1,6 +1,6 @@
 # Image dimensions, input mode and framing preview
 
-Updated October 27, 2026. **Status: local technical validation completed without spending credits; not deployed to production.** This guide describes the addition to the existing English [first-frame versus Reference comparison](https://superseedance.si/en/blog/seedance-first-frame-vs-reference), under `#image-diagnostics`. The link to the article does not mean the new tool is already live.
+Updated October 27, 2026. **Status: live; both online preparation flows and signed-in mobile-width browser checks completed without submitting a generation or spending credits.** [Open image diagnostics](https://superseedance.si/en/blog/seedance-first-frame-vs-reference#image-diagnostics) on the existing English first-frame versus Reference comparison page.
 
 The tool helps you check one image and plan its framing before deciding whether to generate a video. Selecting a file, comparing modes and changing the preview do not upload your image, call a video model or spend credits. The selected image is processed locally in your browser.
 
@@ -52,6 +52,17 @@ Local technical validation completed on October 27, 2026:
 - At a 939-pixel-wide viewport, the page had no horizontal overflow. Crop and centered fit-with-borders previews, keyboard Home/End position changes in crop mode, clearing/reselecting the same file and the separate first-frame creator link were checked.
 - Tool interactions caused no increase in the isolated proxy's request count: **0 asset uploads, 0 video generations and 0 credits spent**. Initial authentication and measurement requests were blocked by the test proxy. This verifies the local diagnostic interaction; it does not validate those services or the production deployment.
 
-A dedicated mobile-viewport check and real-user trial have not been completed. There is no new paid model comparison or evidence of better rankings or conversion. Production release remains outstanding.
+The production release and its mobile-header follow-up were completed on October 27, 2026. Logged-out checks at 320, 360, 390 and 430 CSS-pixel widths passed. Final signed-in checks at 320, 360, 390, 430 and 1280 pixels showed no page-wide horizontal overflow, and the 320-pixel menu opened and closed. The four mobile widths were also checked with both image previews loaded: the continuation link stayed within the viewport and all six measured controls were at least 44 pixels high. These used resized in-app-browser viewports, not physical iOS or Android devices.
+
+Two online flows were completed through opening the creator settings:
+
+- **First-frame:** a 1600 × 900 image was previewed as a right-aligned 9:16 crop, retaining 31.6% of its area. The creator correctly opened with adaptive aspect ratio. The preview crop was not applied to or uploaded into the creator.
+- **Reference:** the same image was previewed centered with borders in a 21:9 frame, filling 76.2% of its width and all its height. The creator correctly opened with 21:9.
+
+Both creator views had an empty image input and prompt, with 4 seconds, 480p, native audio off and draft off. No image was uploaded and no generation was submitted. EXIF orientation, a corrupt-file rejection with no continuation link, a portrait image and keyboard clearing were also checked online. The check created no new saved assets or generation tasks and spent no credits.
+
+The free-operation boundary is supported by code/tests, isolated local request observation, the limited online actions and before/after aggregate result checks. A complete production network trace was not collected; the local proxy evidence is not presented as an online network audit.
+
+A real-user trial and physical-device testing have not been completed. There is no new paid model comparison or evidence of better rankings or conversion.
 
 For model-specific capability details, consult the [official BytePlus Seedance 2.5 documentation](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5). The platform's broader capabilities are not automatically available in SuperSeedance's current single-image workflows.
