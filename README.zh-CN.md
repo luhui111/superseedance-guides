@@ -10,7 +10,7 @@ SuperSeedance 是一个独立 AI 视频工作台，支持用 Seedance 2.5 从文
 
 - [入门教程](https://superseedance.si/zh/blog/how-to-use-seedance)：文字生成、首帧图片、参数、提交与下载。
 - [图片尺寸、模式选择与构图预览](image-diagnostics.md) · [打开工具](https://superseedance.si/en/blog/seedance-first-frame-vs-reference#image-diagnostics)：已于 2026 年 10 月 27 日上线，首帧与 Reference 两条线上免费准备流程均已走到工作台设置，未上传素材或提交生成。登录状态下的手机宽度视窗检查通过，验收期间没有新增保存素材、生成任务或积分支出。视窗检查不等于真实 iOS/Android 设备或真人试用。
-- [商品广告文案预览与同源改字](product-ad-preflight.md)：**本地实现与零积分技术验证完成，手机浏览器验收 / 部署待完成。** 856 项测试、类型检查、构建和三种 CTA 的隔离合成通过；新版尚未上线。复用原片改字不新增生成积分，商品保真与叠字准确分别检查。
+- [商品广告文案预览与同源改字](product-ad-preflight.md) · [打开免费预览](https://superseedance.si/zh/product-ad#copy-preview)：**已上线，手机宽度与线上免费预览检查通过；初始化输入问题已修复并通过 8 项线上追加复验。** 本地三种 CTA 合成及中英本地 / 生产 320 / 360 / 390 / 430 / 1280px 视窗检查通过；线上沿用已有登录会话并排除测量，未上传、生成或合成广告，聚合计数没有新增素材、任务、广告版本或积分支出。视窗检查不是实体手机测试；复用原片改字不新增生成积分，商品保真与叠字准确分别检查。
 - [提示词与八条原创样片](https://superseedance.si/zh/blog/seedance-prompt-guide#motion-examples)：运镜、动作、动漫、三维、水墨与黏土风格。
 - [角色一致性](https://superseedance.si/zh/blog/seedance-consistent-character)：每个镜头复用同一张参考图，检查外观与画风；参考不保证完全一致。
 - [视频问题排查](https://superseedance.si/zh/blog/seedance-video-troubleshooting)：处理运动不足、变形、画幅、排队与失败，理解积分返还。
