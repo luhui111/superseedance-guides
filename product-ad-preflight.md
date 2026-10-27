@@ -57,7 +57,7 @@ Saved assets stayed at 0, the one seeded source-job record stayed at 1, and cred
 
 The full **856-test suite**, typecheck and production build passed. Regression checks cover keeping the wording draft when replacing a photo, rejecting invalid Unicode, text fit, account ownership, consent upgrades, history exclusions, withdrawal, expiry and optional-measurement failures.
 
-**Still pending:** English/Chinese browser interactions, phone-width and desktop checks, production deployment, online free-flow acceptance and production aggregate verification. Browser automation is currently disabled in the validation environment. No physical iOS/Android testing, real-user study, new paid model generation, packaging-fidelity test, editor-speed comparison or SEO/conversion improvement is claimed. Resized browser viewports, once tested, will still not be physical-device tests.
+**Still pending:** English/Chinese browser interactions, phone-width and desktop checks, production deployment, online free-flow acceptance and production aggregate verification. Browser acceptance has not yet been completed. No physical iOS/Android testing, real-user study, new paid model generation, packaging-fidelity test, editor-speed comparison or SEO/conversion improvement is claimed. Resized browser viewports, once tested, will still not be physical-device tests.
 
 ## 中文使用边界
 
