@@ -11,6 +11,7 @@ SuperSeedance is an independent AI video workspace for creating from text or ima
 | What you want to do | Guide |
 |---|---|
 | Make your first video | [Getting started](getting-started.md) · [Full website guide](https://superseedance.si/en/blog/how-to-use-seedance) |
+| Check an image and compare first-frame / Reference framing | [Image diagnostics guide](image-diagnostics.md) — local technical checks completed; not yet deployed |
 | Write camera, action or animation prompts | [Eight prompts and example videos](prompts.md) |
 | Reuse a character across shots | [Character reference workflow](https://superseedance.si/en/blog/seedance-consistent-character) |
 | Fix weak motion, distortion or task errors | [Video troubleshooting](https://superseedance.si/en/blog/seedance-video-troubleshooting) |
@@ -38,4 +39,4 @@ This documentation is maintained for SuperSeedance. The platform is independentl
 
 Sample videos are presented for demonstration; viewing this repository does not grant a commercial redistribution license for them. Use your own or authorized input material and review the applicable terms before publishing generated work.
 
-Updated October 24, 2026. The live website is the source for current availability and prices.
+Updated October 27, 2026. The image-diagnostics tool has passed local technical checks with no uploads, video generation or credit use. It has not been deployed to production; a dedicated mobile-viewport check and real-user trial are still outstanding. The live website is the source for current availability and prices.

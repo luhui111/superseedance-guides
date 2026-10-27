@@ -9,6 +9,7 @@ SuperSeedance 是一个独立 AI 视频工作台，支持用 Seedance 2.5 从文
 ## 从一个镜头开始
 
 - [入门教程](https://superseedance.si/zh/blog/how-to-use-seedance)：文字生成、首帧图片、参数、提交与下载。
+- [图片尺寸、模式选择与构图预览](image-diagnostics.md)：英文首帧 / Reference 对照页的本地诊断工具说明；截至 2026 年 10 月 27 日，本地技术验证已完成，0 上传、0 生成、0 积分消耗，尚未生产发布。专门的手机视窗与真人试用仍未验证。
 - [提示词与八条原创样片](https://superseedance.si/zh/blog/seedance-prompt-guide#motion-examples)：运镜、动作、动漫、三维、水墨与黏土风格。
 - [角色一致性](https://superseedance.si/zh/blog/seedance-consistent-character)：每个镜头复用同一张参考图，检查外观与画风；参考不保证完全一致。
 - [视频问题排查](https://superseedance.si/zh/blog/seedance-video-troubleshooting)：处理运动不足、变形、画幅、排队与失败，理解积分返还。
