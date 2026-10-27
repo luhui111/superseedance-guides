@@ -12,6 +12,7 @@ SuperSeedance is an independent AI video workspace for creating from text or ima
 |---|---|
 | Make your first video | [Getting started](getting-started.md) · [Full website guide](https://superseedance.si/en/blog/how-to-use-seedance) |
 | Check an image and compare first-frame / Reference framing | [Image diagnostics guide](image-diagnostics.md) · [Open the tool](https://superseedance.si/en/blog/seedance-first-frame-vs-reference#image-diagnostics) |
+| Prepare product-ad wording and same-source revisions (release pending) | [Wording preview and validation scope](product-ad-preflight.md) |
 | Write camera, action or animation prompts | [Eight prompts and example videos](prompts.md) |
 | Reuse a character across shots | [Character reference workflow](https://superseedance.si/en/blog/seedance-consistent-character) |
 | Fix weak motion, distortion or task errors | [Video troubleshooting](https://superseedance.si/en/blog/seedance-video-troubleshooting) |
@@ -38,5 +39,7 @@ This documentation is maintained for SuperSeedance. The platform is independentl
 [About](https://superseedance.si/en/about) · [Contact](https://superseedance.si/en/contact) · [Terms](https://superseedance.si/en/terms-of-service) · [Privacy](https://superseedance.si/en/privacy-policy)
 
 Sample videos are presented for demonstration; viewing this repository does not grant a commercial redistribution license for them. Use your own or authorized input material and review the applicable terms before publishing generated work.
+
+The product-ad wording preview and expanded optional measurement are prepared locally but have not been deployed. The 856-test suite, typecheck, build and three isolated CTA renders passed without new generation jobs or credit entries; mobile-browser and production acceptance remain pending. See the [product-ad validation scope](product-ad-preflight.md).
 
 Updated October 27, 2026. The image-diagnostics tool is live, with both first-frame and Reference preparation flows checked online without uploading an image or submitting a generation. Local checks and signed-in mobile-width browser checks passed, with no new saved assets, generation tasks or credit spending during acceptance. The checks used resized browser viewports, not physical iOS/Android devices or a real-user study. The live website is the source for current availability and prices.
