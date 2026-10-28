@@ -18,6 +18,9 @@ SuperSeedance 是一个独立 AI 视频工作台，支持用 Seedance 2.5 从文
 - [费用与预算](https://superseedance.si/zh/blog/seedance-cost-guide)：区分供应商成本、本站积分与成片预算。
 - [API 文档](https://superseedance.si/zh/docs)：后端认证、报价、生成与任务查询。
 - [MCP 接入说明](mcp.md)：用账户 API Key 连接兼容的服务端客户端，查询、报价和管理任务；创建视频前需确认积分。
+- [视频规划 Skill 安装与使用](video-skill.zh-CN.md) · [网站说明](https://superseedance.si/zh/blog/seedance-claude-skill)：免费准备镜头、连续性、提示词和预算；每次付费生成须另行确认。
+- [Draft 模式与分阶段预算](https://superseedance.si/zh/blog/seedance-draft-mode)：先试一个镜头，再决定下一次生成。
+- [三镜头 3D 动画故事](https://superseedance.si/zh/blog/seedance-3d-animation-story)：规划角色、画面动作和剪辑衔接。
 
 八条动态样片的提交参数为 Seedance 2.5、文生、6 秒、720p、16:9、无音频、非草稿。页面将完整提示词与样片配对，方便比较动作和镜头表达。提示词提供创作起点，不保证每次得到相同成片。
 

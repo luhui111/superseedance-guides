@@ -1,0 +1,14 @@
+{
+  "name": "superseedance-guides",
+  "description": "SuperSeedance video planning skills and optional documented product handoffs.",
+  "owner": {
+    "name": "SuperSeedance"
+  },
+  "plugins": [
+    {
+      "name": "superseedance-video",
+      "source": "./plugins/superseedance-video",
+      "description": "Local video planning with optional, separately authorized SuperSeedance generation."
+    }
+  ]
+}

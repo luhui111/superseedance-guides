@@ -1,0 +1,18 @@
+{
+  "name": "superseedance-video",
+  "version": "1.0.0",
+  "description": "Plan continuous video shots, prompts and a credit budget locally. Optional SuperSeedance generation requires a separate connection, a valid quote and explicit paid approval.",
+  "author": {
+    "name": "SuperSeedance",
+    "url": "https://superseedance.si"
+  },
+  "homepage": "https://superseedance.si/en/blog/seedance-claude-skill",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "shot-planning",
+    "seedance",
+    "prompts",
+    "continuity"
+  ]
+}

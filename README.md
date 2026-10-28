@@ -20,6 +20,9 @@ SuperSeedance is an independent AI video workspace for creating from text or ima
 | Plan duration, resolution and budget | [Video cost guide](https://superseedance.si/en/blog/seedance-cost-guide) |
 | Integrate from your backend | [API notes](api.md) · [API reference](https://superseedance.si/api-reference.md) |
 | Connect a compatible server-side MCP client | [MCP connection and tools](mcp.md) |
+| Plan locally with a Claude Skill | [Install and use the video planner](video-skill.md) · [Website guide](https://superseedance.si/en/blog/seedance-claude-skill) |
+| Decide whether to test in Draft mode | [Draft mode and staged budget](https://superseedance.si/en/blog/seedance-draft-mode) |
+| Plan a consistent three-shot animated story | [3D story workflow](https://superseedance.si/en/blog/seedance-3d-animation-story) |
 
 ## Watch the original examples
 
